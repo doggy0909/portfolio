@@ -3,56 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>이준석 - 개발자 이력서</title>
+  <title>이준석</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: 'Noto Sans KR', sans-serif;
       margin: 0;
-      background: #f7f9fc;
+      background: #eef1f7;
       color: #333;
-      line-height: 1.6;
     }
     .container {
       max-width: 960px;
-      margin: auto;
+      margin: 2rem auto;
       padding: 2rem;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     header {
       text-align: center;
-      padding: 2rem 0;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
     }
     h1 {
-      margin-bottom: 0.2rem;
+      margin: 0.5rem 0;
+      font-size: 2rem;
     }
     h2 {
-      border-bottom: 2px solid #007acc;
-      padding-bottom: 0.3rem;
+      color: #007acc;
       margin-top: 2rem;
+      border-left: 5px solid #007acc;
+      padding-left: 10px;
     }
     .section {
       margin-bottom: 2rem;
-    }
-    .info-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
+      padding: 1rem;
+      background: #f9fbfd;
+      border-radius: 10px;
+      border: 1px solid #dce6f0;
     }
     ul {
-      padding-left: 1rem;
+      padding-left: 1.5rem;
     }
-    .project {
-      margin-bottom: 1.5rem;
-    }
-    .highlight {
+    a {
       color: #007acc;
-      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .project h3 {
+      margin-bottom: 0.3rem;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
+      header img {
+        width: 100px;
+        height: 100px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
+      <img src="/images/lsj.jpg" alt="증명사진">
       <h1>이준석</h1>
       <p>JAVA 개발자 | 백엔드 개발자 </p>
     </header>
@@ -102,12 +130,12 @@
       <div class="project">
         <h3>BREAKTIME (2023.05 ~ 2023.06)</h3>
         <p>숙박 예약 웹사이트 개발. 사업자 및 관리자 페이지, 리뷰 시스템 등 구축</p>
-        <p>GitHub: <a href="https://github.com/KH-Final-2023/breakTime-spring-project">breakTime-spring-project</a></p>
+        <p>GitHub: <a href="https://github.com/KH-Final-2023/breakTime-spring-project" target="_blank">breakTime-spring-project</a></p>
       </div>
       <div class="project">
         <h3>KHTIME (2023.03 ~ 2023.04)</h3>
         <p>학원 커뮤니티 플랫폼 개발. 회원가입, 친구/게시판/메시지 기능 구현</p>
-        <p>GitHub: <a href="https://github.com/hongsuk2615/Semi_project">Semi_project</a></p>
+        <p>GitHub: <a href="https://github.com/hongsuk2615/Semi_project" target="_blank">Semi_project</a></p>
       </div>
     </section>
 
