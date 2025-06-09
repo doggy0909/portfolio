@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>이준석</title>
+  <title>이준석 - 개발자 이력서</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <style>
     * {
@@ -12,33 +12,39 @@
     body {
       font-family: 'Noto Sans KR', sans-serif;
       margin: 0;
-      background: #eef1f7;
+      background: #f4f6f9;
       color: #333;
     }
     .container {
       max-width: 960px;
       margin: 2rem auto;
       padding: 2rem;
-      background: #ffffff;
-      border-radius: 16px;
-      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
     }
     header {
-      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      padding-bottom: 1.5rem;
       border-bottom: 2px solid #007acc;
-      padding-bottom: 1rem;
-      margin-bottom: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     header img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
+      width: 130px;
+      height: 130px;
       border-radius: 50%;
-      margin-bottom: 1rem;
+      object-fit: cover;
+      border: 3px solid #007acc;
+    }
+    .header-info {
+      text-align: center;
     }
     h1 {
-      margin: 0.5rem 0;
-      font-size: 2rem;
+      font-size: 1.8rem;
+      margin: 0.2rem 0;
     }
     h2 {
       color: #007acc;
@@ -48,13 +54,13 @@
     }
     .section {
       margin-bottom: 2rem;
-      padding: 1rem;
+      padding: 1.2rem;
       background: #f9fbfd;
+      border-left: 4px solid #007acc;
       border-radius: 10px;
-      border: 1px solid #dce6f0;
     }
     ul {
-      padding-left: 1.5rem;
+      padding-left: 1.2rem;
     }
     a {
       color: #007acc;
@@ -65,14 +71,14 @@
     }
     .project h3 {
       margin-bottom: 0.3rem;
+      font-size: 1.1rem;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
       .container {
         padding: 1rem;
       }
-      header img {
-        width: 100px;
-        height: 100px;
+      header {
+        flex-direction: column;
       }
     }
   </style>
@@ -80,9 +86,12 @@
 <body>
   <div class="container">
     <header>
-      <img src="/images/lsj.jpg" alt="증명사진">
-      <h1>이준석</h1>
-      <p>JAVA 개발자 | 백엔드 개발자 </p>
+      <img src="/images/lsj.jpg" alt="이준석 증명사진">
+      <div class="header-info">
+        <h1>이준석</h1>
+        <p>JAVA 개발자</p>
+        <p>이메일: wnstjr8923@naver.com</p>
+      </div>
     </header>
 
     <section class="section">
@@ -127,9 +136,11 @@
 
     <section class="section">
       <h2>프로젝트</h2>
-      <div class="project">
-        <h3>BREAKTIME (2023.05 ~ 2023.06)</h3>
-        <p>숙박 예약 웹사이트 개발. 사업자 및 관리자 페이지, 리뷰 시스템 등 구축</p>
+      
+        <p><strong>프로젝트 설명:</strong> 숙박 업소를 등록하고, 검색하고, 예약할 수 있는 통합 예약 웹 플랫폼을 구현하였습니다. 사용자, 사업자, 관리자 3가지 권한을 기준으로 기능을 분리하여 개발했습니다.</p>
+        <p><strong>주요 기능:</strong> 
+          <ul>
+            <l
         <p>GitHub: <a href="https://github.com/KH-Final-2023/breakTime-spring-project" target="_blank">breakTime-spring-project</a></p>
       </div>
       <div class="project">
