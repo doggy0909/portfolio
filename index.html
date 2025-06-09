@@ -12,55 +12,55 @@
     body {
       font-family: 'Noto Sans KR', sans-serif;
       margin: 0;
-      background: #f4f6f9;
-      color: #333;
+      background: #f5f6f7;
+      color: #1a1a1a;
+      line-height: 1.6;
     }
     .container {
       max-width: 960px;
-      margin: 2rem auto;
+      margin: 3rem auto;
       padding: 2rem;
       background: #fff;
       border-radius: 12px;
-      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
     header {
       display: flex;
       align-items: center;
       gap: 1.5rem;
+      border-bottom: 1px solid #ddd;
       padding-bottom: 1.5rem;
-      border-bottom: 2px solid #007acc;
+      margin-bottom: 2rem;
       flex-wrap: wrap;
       justify-content: center;
     }
     header img {
-      width: 130px;
-      height: 130px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #007acc;
+      border: 2px solid #ddd;
     }
     .header-info {
       text-align: center;
     }
     h1 {
-      font-size: 1.8rem;
+      font-size: 2rem;
       margin: 0.2rem 0;
     }
     h2 {
-      color: #007acc;
-      margin-top: 2rem;
-      border-left: 5px solid #007acc;
-      padding-left: 10px;
+      font-size: 1.25rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      border-bottom: 1px solid #e2e2e2;
+      padding-bottom: 0.3rem;
     }
     .section {
       margin-bottom: 2rem;
-      padding: 1.2rem;
-      background: #f9fbfd;
-      border-left: 4px solid #007acc;
-      border-radius: 10px;
     }
     ul {
-      padding-left: 1.2rem;
+      padding-left: 1.5rem;
     }
     a {
       color: #007acc;
@@ -70,8 +70,11 @@
       text-decoration: underline;
     }
     .project h3 {
-      margin-bottom: 0.3rem;
       font-size: 1.1rem;
+      margin: 1rem 0 0.5rem;
+    }
+    .project p {
+      margin: 0.3rem 0;
     }
     @media (max-width: 768px) {
       .container {
@@ -93,75 +96,3 @@
         <p>이메일: wnstjr8923@naver.com</p>
       </div>
     </header>
-
-    <section class="section">
-      <h2>자기소개</h2>
-      <p>협업과 의사소통에 강점이 있으며, 문제를 발견하면 적극적으로 개선하는 실행력을 갖춘 개발자입니다. 다양한 협업 경험과 체계화 능력을 바탕으로 팀에 긍정적인 영향을 주고자 합니다.</p>
-    </section>
-
-    <section class="section">
-      <h2>학력사항</h2>
-      <ul>
-        <li>학점은행제 컴퓨터공학과 (2023.10 ~ 2025.02) - 학사 예정</li>
-        <li>부천대학교 지능로봇과 (2016.03 ~ 2021.02) - 전문학사</li>
-        <li>덕산고등학교 (2013.03 ~ 2016.02) - 졸업</li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <h2>보유 자격증</h2>
-      <ul>
-        <li>정보처리기사 (2024.12.11)</li>
-        <li>정보처리산업기사 (2024.09.10)</li>
-        <li>SQLD (2024.04.05)</li>
-        <li>실용글쓰기(준3급), 한국사 1급</li>
-        <li>운전면허 1종보통</li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <h2>경력사항</h2>
-      <ul>
-        <li><strong>인프라칩</strong> (2025.03 ~ 2025.06): IOT 데이터 대시보드 개발 인턴</li>
-        <li><strong>케이원</strong> (2024.01 ~ 2025.03): 이벤트 모니터링 및 콘솔 작업</li>
-        <li><strong>HTNC</strong> (2020.10 ~ 2020.12): 사무 보조</li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <h2>교육 및 기술</h2>
-      <p><strong>KH정보교육원:</strong> 반응형 UI/UX 웹콘텐츠 개발자 양성과정 수료 (2022.11 ~ 2023.06)</p>
-      <p>습득 기술: Java, Spring, JSP, MyBatis, Ajax, HTML/CSS/JS, Oracle SQL</p>
-    </section>
-
-    <section class="section">
-      <h2>프로젝트</h2>
-      
-        <p><strong>프로젝트 설명:</strong> 숙박 업소를 등록하고, 검색하고, 예약할 수 있는 통합 예약 웹 플랫폼을 구현하였습니다. 사용자, 사업자, 관리자 3가지 권한을 기준으로 기능을 분리하여 개발했습니다.</p>
-        <p><strong>주요 기능:</strong> 
-          <ul>
-            <l
-        <p>GitHub: <a href="https://github.com/KH-Final-2023/breakTime-spring-project" target="_blank">breakTime-spring-project</a></p>
-      </div>
-      <div class="project">
-        <h3>KHTIME (2023.03 ~ 2023.04)</h3>
-        <p>학원 커뮤니티 플랫폼 개발. 회원가입, 친구/게시판/메시지 기능 구현</p>
-        <p>GitHub: <a href="https://github.com/hongsuk2615/Semi_project" target="_blank">Semi_project</a></p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>기술 스택</h2>
-      <p><strong>백엔드:</strong> Java, Spring, JSP, Oracle SQL</p>
-      <p><strong>프론트엔드:</strong> HTML, CSS, JavaScript, Bootstrap, Ajax</p>
-      <p><strong>기타:</strong> Git, Arduino, Android Studio, 3D 프린터, AWS 기초 학습 중</p>
-    </section>
-
-    <section class="section">
-      <h2>입사 후 목표</h2>
-      <p>Java, Spring 기반 백엔드 실력 강화, 클라우드(AWS, GCP) 이해, 보안 이슈 대응 능력 확보, 프론트엔드 최신 기술 학습을 통해 풀스택 개발자로 성장하고자 합니다.</p>
-    </section>
-
-  </div>
-</body>
-</html>
